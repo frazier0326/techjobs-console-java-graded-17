@@ -103,7 +103,6 @@ public class JobData {
 //                    jobs.add(row);
 
             for (String data : row.keySet()) {
-                System.out.println(data);
                 if(row.get(data).toLowerCase().contains(value.toLowerCase())) {
                     jobs.add(row);
                 }
